@@ -72,11 +72,11 @@ A single status value can be provided as a string
 use Data::Dumper;
 
 # Configure API key authorization: test_api_client_id
-WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_id'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_id'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'x-test_api_client_id'} = "BEARER";
 # Configure API key authorization: test_api_client_secret
-WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_secret'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_secret'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'x-test_api_client_secret'} = "BEARER";
 
@@ -125,7 +125,7 @@ Returns a map of status codes to quantities
 use Data::Dumper;
 
 # Configure API key authorization: api_key
-WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER";
 
@@ -170,7 +170,7 @@ Returns an arbitrary object which is actually a map of status codes to quantitie
 use Data::Dumper;
 
 # Configure API key authorization: api_key
-WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER";
 
@@ -215,11 +215,11 @@ For valid response try integer IDs with value <= 5 or > 10. Other values will ge
 use Data::Dumper;
 
 # Configure API key authorization: test_api_key_header
-WWW::SwaggerClient::Configuration::api_key->{'test_api_key_header'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'test_api_key_header'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'test_api_key_header'} = "BEARER";
 # Configure API key authorization: test_api_key_query
-WWW::SwaggerClient::Configuration::api_key->{'test_api_key_query'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'test_api_key_query'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'test_api_key_query'} = "BEARER";
 
@@ -268,11 +268,11 @@ Place an order for a pet
 use Data::Dumper;
 
 # Configure API key authorization: test_api_client_id
-WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_id'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_id'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'x-test_api_client_id'} = "BEARER";
 # Configure API key authorization: test_api_client_secret
-WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_secret'} = "YOUR_API_KEY";
+WWW::SwaggerClient::Configuration::api_key->{'x-test_api_client_secret'} = 'YOUR_API_KEY';
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
 #WWW::SwaggerClient::Configuration::api_key_prefix->{'x-test_api_client_secret'} = "BEARER";
 
