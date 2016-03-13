@@ -15,6 +15,6 @@ Name | Type | Description | Notes
 **name** | **string** |  | [optional] 
 **photo_urls** | **ARRAY[string]** |  | [optional] 
 
-[[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints)[[Back to Model list]](../README.md#documentation-for-models)
+[[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 

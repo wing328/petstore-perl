@@ -53,7 +53,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **find_orders_by_status**
 > ARRAY[Order] find_orders_by_status(status => $status)
@@ -106,7 +106,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **get_inventory**
 > HASH[string,int] get_inventory()
@@ -151,7 +151,7 @@ This endpoint does not need any parameter.
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **get_inventory_in_object**
 > object get_inventory_in_object()
@@ -196,7 +196,7 @@ This endpoint does not need any parameter.
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **get_order_by_id**
 > Order get_order_by_id(order_id => $order_id)
@@ -249,7 +249,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **place_order**
 > Order place_order(body => $body)
@@ -302,5 +302,5 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
 
