@@ -1,5 +1,10 @@
 # WWW::SwaggerClient::PetApi
 
+## Load the API package
+```perl
+use WWW::SwaggerClient::Object::PetApi;
+```
+
 All URIs are relative to *http://petstore.swagger.io/v2*
 
 Method | HTTP request | Description
@@ -61,7 +66,7 @@ void (empty response body)
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **add_pet_using_byte_array**
 > add_pet_using_byte_array(body => $body)
@@ -107,7 +112,7 @@ void (empty response body)
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **delete_pet**
 > delete_pet(pet_id => $pet_id, api_key => $api_key)
@@ -155,7 +160,7 @@ void (empty response body)
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **find_pets_by_status**
 > ARRAY[Pet] find_pets_by_status(status => $status)
@@ -202,7 +207,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **find_pets_by_tags**
 > ARRAY[Pet] find_pets_by_tags(tags => $tags)
@@ -249,7 +254,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_pet_by_id**
 > Pet get_pet_by_id(pet_id => $pet_id)
@@ -300,7 +305,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_pet_by_id_in_object**
 > InlineResponse200 get_pet_by_id_in_object(pet_id => $pet_id)
@@ -351,7 +356,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **pet_pet_idtesting_byte_arraytrue_get**
 > string pet_pet_idtesting_byte_arraytrue_get(pet_id => $pet_id)
@@ -402,7 +407,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **update_pet**
 > update_pet(body => $body)
@@ -448,7 +453,7 @@ void (empty response body)
  - **Content-Type**: application/json, application/xml
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **update_pet_with_form**
 > update_pet_with_form(pet_id => $pet_id, name => $name, status => $status)
@@ -498,7 +503,7 @@ void (empty response body)
  - **Content-Type**: application/x-www-form-urlencoded
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **upload_file**
 > upload_file(pet_id => $pet_id, additional_metadata => $additional_metadata, file => $file)
@@ -548,5 +553,5 @@ void (empty response body)
  - **Content-Type**: multipart/form-data
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

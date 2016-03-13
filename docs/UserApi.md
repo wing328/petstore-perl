@@ -1,5 +1,10 @@
 # WWW::SwaggerClient::UserApi
 
+## Load the API package
+```perl
+use WWW::SwaggerClient::Object::UserApi;
+```
+
 All URIs are relative to *http://petstore.swagger.io/v2*
 
 Method | HTTP request | Description
@@ -55,7 +60,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **create_users_with_array_input**
 > create_users_with_array_input(body => $body)
@@ -98,7 +103,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **create_users_with_list_input**
 > create_users_with_list_input(body => $body)
@@ -141,7 +146,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **delete_user**
 > delete_user(username => $username)
@@ -184,7 +189,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_user_by_name**
 > User get_user_by_name(username => $username)
@@ -228,7 +233,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **login_user**
 > string login_user(username => $username, password => $password)
@@ -274,7 +279,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **logout_user**
 > logout_user()
@@ -313,7 +318,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **update_user**
 > update_user(username => $username, body => $body)
@@ -358,5 +363,5 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

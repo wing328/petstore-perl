@@ -1,5 +1,10 @@
 # WWW::SwaggerClient::StoreApi
 
+## Load the API package
+```perl
+use WWW::SwaggerClient::Object::StoreApi;
+```
+
 All URIs are relative to *http://petstore.swagger.io/v2*
 
 Method | HTTP request | Description
@@ -53,7 +58,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **find_orders_by_status**
 > ARRAY[Order] find_orders_by_status(status => $status)
@@ -106,7 +111,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_inventory**
 > HASH[string,int] get_inventory()
@@ -151,7 +156,7 @@ This endpoint does not need any parameter.
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_inventory_in_object**
 > object get_inventory_in_object()
@@ -196,7 +201,7 @@ This endpoint does not need any parameter.
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **get_order_by_id**
 > Order get_order_by_id(order_id => $order_id)
@@ -249,7 +254,7 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **place_order**
 > Order place_order(body => $body)
@@ -302,5 +307,5 @@ Name | Type | Description  | Notes
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back to top]](#) [[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

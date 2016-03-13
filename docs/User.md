@@ -1,6 +1,6 @@
 # WWW::SwaggerClient::Object::User
 
-## Import the module
+## Load the model package
 ```perl
 use WWW::SwaggerClient::Object::User;
 ```
@@ -17,6 +17,6 @@ Name | Type | Description | Notes
 **phone** | **string** |  | [optional] 
 **user_status** | **int** | User Status | [optional] 
 
-[[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models)
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 
