@@ -300,8 +300,8 @@ Class | Method | HTTP request | Description
 - **Flow**: implicit
 - **Authorizatoin URL**: http://petstore.swagger.io/api/oauth/dialog
 - **Scopes**: 
--- write:pets: modify pets in your account
--- read:pets: read your pets
+ - write:pets: modify pets in your account
+ - read:pets: read your pets
 
 
 
