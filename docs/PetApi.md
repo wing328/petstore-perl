@@ -26,14 +26,21 @@ Add a new pet to the store
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::Pet->new(); # [Pet] Pet object that needs to be added to the store
 
 eval { 
     $api->add_pet(body => $body);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling add_pet: $@\n";
+    warn "Exception when calling PetApi->add_pet: $@\n";
 }
 ```
 
@@ -67,14 +74,21 @@ Fake endpoint to test byte array in body parameter for adding a new pet to the s
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::string->new(); # [string] Pet object in the form of byte array
 
 eval { 
     $api->add_pet_using_byte_array(body => $body);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling add_pet_using_byte_array: $@\n";
+    warn "Exception when calling PetApi->add_pet_using_byte_array: $@\n";
 }
 ```
 
@@ -108,15 +122,22 @@ Deletes a pet
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] Pet id to delete
 my $api_key = 'api_key_example'; # [string] 
 
 eval { 
     $api->delete_pet(pet_id => $pet_id, api_key => $api_key);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling delete_pet: $@\n";
+    warn "Exception when calling PetApi->delete_pet: $@\n";
 }
 ```
 
@@ -151,14 +172,21 @@ Multiple status values can be provided with comma separated strings
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $status = (); # [ARRAY[string]] Status values that need to be considered for query
 
 eval { 
     my $result = $api->find_pets_by_status(status => $status);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling find_pets_by_status: $@\n";
+    warn "Exception when calling PetApi->find_pets_by_status: $@\n";
 }
 ```
 
@@ -192,14 +220,21 @@ Muliple tags can be provided with comma seperated strings. Use tag1, tag2, tag3 
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $tags = (); # [ARRAY[string]] Tags to filter by
 
 eval { 
     my $result = $api->find_pets_by_tags(tags => $tags);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling find_pets_by_tags: $@\n";
+    warn "Exception when calling PetApi->find_pets_by_tags: $@\n";
 }
 ```
 
@@ -233,14 +268,26 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure API key authorization: api_key
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+# uncomment below to setup prefix (e.g. BEARER) for API key, if needed
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
+#config.api_key_prefix['api_key'] = "Token"
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
 
 eval { 
     my $result = $api->get_pet_by_id(pet_id => $pet_id);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling get_pet_by_id: $@\n";
+    warn "Exception when calling PetApi->get_pet_by_id: $@\n";
 }
 ```
 
@@ -274,14 +321,26 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure API key authorization: api_key
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+# uncomment below to setup prefix (e.g. BEARER) for API key, if needed
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
+#config.api_key_prefix['api_key'] = "Token"
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
 
 eval { 
     my $result = $api->get_pet_by_id_in_object(pet_id => $pet_id);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling get_pet_by_id_in_object: $@\n";
+    warn "Exception when calling PetApi->get_pet_by_id_in_object: $@\n";
 }
 ```
 
@@ -315,14 +374,26 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure API key authorization: api_key
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+# uncomment below to setup prefix (e.g. BEARER) for API key, if needed
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
+#config.api_key_prefix['api_key'] = "Token"
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
 
 eval { 
     my $result = $api->pet_pet_idtesting_byte_arraytrue_get(pet_id => $pet_id);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling pet_pet_idtesting_byte_arraytrue_get: $@\n";
+    warn "Exception when calling PetApi->pet_pet_idtesting_byte_arraytrue_get: $@\n";
 }
 ```
 
@@ -356,14 +427,21 @@ Update an existing pet
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::Pet->new(); # [Pet] Pet object that needs to be added to the store
 
 eval { 
     $api->update_pet(body => $body);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling update_pet: $@\n";
+    warn "Exception when calling PetApi->update_pet: $@\n";
 }
 ```
 
@@ -397,6 +475,12 @@ Updates a pet in the store with form data
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 'pet_id_example'; # [string] ID of pet that needs to be updated
 my $name = 'name_example'; # [string] Updated name of the pet
@@ -404,9 +488,10 @@ my $status = 'status_example'; # [string] Updated status of the pet
 
 eval { 
     $api->update_pet_with_form(pet_id => $pet_id, name => $name, status => $status);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling update_pet_with_form: $@\n";
+    warn "Exception when calling PetApi->update_pet_with_form: $@\n";
 }
 ```
 
@@ -442,6 +527,12 @@ uploads an image
 
 ### Example 
 ```perl
+use Data::Dumper;
+
+
+# Configure OAuth2 access token for authorization: petstore_auth
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet to update
 my $additional_metadata = 'additional_metadata_example'; # [string] Additional data to pass to server
@@ -449,9 +540,10 @@ my $file = '/path/to/file.txt'; # [File] file to upload
 
 eval { 
     $api->upload_file(pet_id => $pet_id, additional_metadata => $additional_metadata, file => $file);
+    print Dumper($result);
 };
 if ($@) {
-    warn "Exception when calling upload_file: $@\n";
+    warn "Exception when calling PetApi->upload_file: $@\n";
 }
 ```
 

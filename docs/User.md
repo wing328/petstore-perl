@@ -17,4 +17,6 @@ Name | Type | Description | Notes
 **phone** | **string** |  | [optional] 
 **user_status** | **int** | User Status | [optional] 
 
+[[Back to README]](../README.md) [[Back to API list]](../README.md#documentation-for-api-endpoints)[[Back to Model list]](../README.md#documentation-for-models)
+
 
