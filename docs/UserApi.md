@@ -53,7 +53,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **create_users_with_array_input**
 > create_users_with_array_input(body => $body)
@@ -94,7 +94,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **create_users_with_list_input**
 > create_users_with_list_input(body => $body)
@@ -135,7 +135,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **delete_user**
 > delete_user(username => $username)
@@ -176,7 +176,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **get_user_by_name**
 > User get_user_by_name(username => $username)
@@ -217,7 +217,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **login_user**
 > string login_user(username => $username, password => $password)
@@ -260,7 +260,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **logout_user**
 > logout_user()
@@ -297,7 +297,7 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
 # **update_user**
 > update_user(username => $username, body => $body)
@@ -340,5 +340,5 @@ No authorization required
  - **Content-Type**: Not defined
  - **Accept**: application/json, application/xml
 
-[[Back To Top]](#) [[Back to README]](../README.md) [[Back to API list]](../doc#documentation-for-models)
+[[Back to top]](#) [[Back to README]](../README.md) [[Back to Model list]](../README.md#documentation-for-models)
 
