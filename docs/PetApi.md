@@ -28,16 +28,14 @@ Add a new pet to the store
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::Pet->new(); # [Pet] Pet object that needs to be added to the store
 
 eval { 
     $api->add_pet(body => $body);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->add_pet: $@\n";
@@ -76,16 +74,14 @@ Fake endpoint to test byte array in body parameter for adding a new pet to the s
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::string->new(); # [string] Pet object in the form of byte array
 
 eval { 
     $api->add_pet_using_byte_array(body => $body);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->add_pet_using_byte_array: $@\n";
@@ -124,9 +120,8 @@ Deletes a pet
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] Pet id to delete
@@ -134,7 +129,6 @@ my $api_key = 'api_key_example'; # [string]
 
 eval { 
     $api->delete_pet(pet_id => $pet_id, api_key => $api_key);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->delete_pet: $@\n";
@@ -174,9 +168,8 @@ Multiple status values can be provided with comma separated strings
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $status = (); # [ARRAY[string]] Status values that need to be considered for query
@@ -222,9 +215,8 @@ Muliple tags can be provided with comma seperated strings. Use tag1, tag2, tag3 
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $tags = (); # [ARRAY[string]] Tags to filter by
@@ -270,14 +262,12 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 ```perl
 use Data::Dumper;
 
-
 # Configure API key authorization: api_key
-WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY";
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
-#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
-#config.api_key_prefix['api_key'] = "Token"
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER";
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
@@ -323,14 +313,12 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 ```perl
 use Data::Dumper;
 
-
 # Configure API key authorization: api_key
-WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY";
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
-#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
-#config.api_key_prefix['api_key'] = "Token"
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER";
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
@@ -376,14 +364,12 @@ Returns a pet when ID < 10.  ID > 10 or nonintegers will simulate API error cond
 ```perl
 use Data::Dumper;
 
-
 # Configure API key authorization: api_key
-WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY"
+WWW::SwaggerClient::Configuration::api_key->{'api_key'} = "YOUR_API_KEY";
 # uncomment below to setup prefix (e.g. BEARER) for API key, if needed
-#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER"
-#config.api_key_prefix['api_key'] = "Token"
+#WWW::SwaggerClient::Configuration::api_key_prefix->{'api_key'} = "BEARER";
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet that needs to be fetched
@@ -429,16 +415,14 @@ Update an existing pet
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $body = WWW::SwaggerClient::Object::Pet->new(); # [Pet] Pet object that needs to be added to the store
 
 eval { 
     $api->update_pet(body => $body);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->update_pet: $@\n";
@@ -477,9 +461,8 @@ Updates a pet in the store with form data
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 'pet_id_example'; # [string] ID of pet that needs to be updated
@@ -488,7 +471,6 @@ my $status = 'status_example'; # [string] Updated status of the pet
 
 eval { 
     $api->update_pet_with_form(pet_id => $pet_id, name => $name, status => $status);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->update_pet_with_form: $@\n";
@@ -529,9 +511,8 @@ uploads an image
 ```perl
 use Data::Dumper;
 
-
 # Configure OAuth2 access token for authorization: petstore_auth
-WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN"
+WWW::SwaggerClient::Configuration::access_token = "YOUR_ACCESS_TOKEN";
 
 my $api = WWW::SwaggerClient::PetApi->new();
 my $pet_id = 789; # [int] ID of pet to update
@@ -540,7 +521,6 @@ my $file = '/path/to/file.txt'; # [File] file to upload
 
 eval { 
     $api->upload_file(pet_id => $pet_id, additional_metadata => $additional_metadata, file => $file);
-    print Dumper($result);
 };
 if ($@) {
     warn "Exception when calling PetApi->upload_file: $@\n";
